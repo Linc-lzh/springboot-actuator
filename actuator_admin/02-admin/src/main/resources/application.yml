@@ -1,0 +1,15 @@
+spring:
+  mail:
+    # 发件人使用的qq邮箱服务
+    host: smtp.qq.com
+    username: tulingxushu@foxmail.com
+    # 授权码，不是密码，在qq邮箱设置-账号里面有生成授权码
+    password: bktymeooyuapggbe
+  boot:
+    admin:
+      notify:
+        mail:
+          # 收件人，多个中间用,分隔
+          to: tulingxushu@foxmail.com
+          # 发件人
+          from: tulingxushu@foxmail.com

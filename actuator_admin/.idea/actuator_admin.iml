@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="AdditionalModuleElements">
+    <content url="file://$MODULE_DIR$" dumb="true">
+      <sourceFolder url="file://$MODULE_DIR$/01-actuator/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/01-actuator/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/01-actuator/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/02-admin/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/02-admin/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/02-admin/src/test/java" isTestSource="true" />
+    </content>
+  </component>
+</module>

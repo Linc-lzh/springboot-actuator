@@ -1,0 +1,48 @@
+2023-09-16 21:00:56.175  INFO 35860 --- [main] com.example.actuator.Application         : Starting Application on ubuntu with PID 35860 (/home/linc/Documents/code/springboot-actuator/actuator_admin/01-actuator/target/classes started by linc in /home/linc/Documents/code/springboot-actuator/actuator_admin)
+2023-09-16 21:00:56.181  INFO 35860 --- [main] com.example.actuator.Application         : No active profile set, falling back to default profiles: default
+2023-09-16 21:00:58.516  INFO 35860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-09-16 21:00:58.535  INFO 35860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-16 21:00:58.535  INFO 35860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-09-16 21:00:58.676  INFO 35860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-16 21:00:58.677  INFO 35860 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2389 ms
+2023-09-16 21:00:59.415  INFO 35860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-16 21:01:00.072  INFO 35860 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2023-09-16 21:01:00.273  INFO 35860 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/xushu'
+2023-09-16 21:01:00.384  INFO 35860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-09-16 21:01:00.408  INFO 35860 --- [main] com.example.actuator.Application         : Started Application in 5.341 seconds (JVM running for 7.084)
+2023-09-16 21:01:00.708  INFO 35860 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-16 21:01:00.725  INFO 35860 --- [RMI TCP Connection(3)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-16 21:01:00.726  INFO 35860 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-16 21:01:00.755  WARN 35860 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://127.0.1.1:8081/xushu, healthUrl=http://127.0.1.1:8081/xushu/health, serviceUrl=http://127.0.1.1:8081/) at spring-boot-admin ([http://localhost:8082/instances]): I/O error on POST request for "http://localhost:8082/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2023-09-16 21:01:00.782  INFO 35860 --- [RMI TCP Connection(3)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 56 ms
+2023-09-16 21:01:01.263  INFO 35860 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-16 21:02:30.083  INFO 35860 --- [SpringContextShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2023-09-16 21:02:30.098  INFO 35860 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2023-09-16 21:02:30.174  INFO 35860 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2023-09-16 21:02:30.176  INFO 35860 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-16 21:02:30.219  INFO 35860 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-16 21:02:30.223  INFO 35860 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-09-16 22:10:25.418  INFO 36771 --- [main] com.example.actuator.Application         : Starting Application on ubuntu with PID 36771 (/home/linc/Documents/code/springboot-actuator/actuator_admin/01-actuator/target/classes started by linc in /home/linc/Documents/code/springboot-actuator/actuator_admin)
+2023-09-16 22:10:25.432  INFO 36771 --- [main] com.example.actuator.Application         : No active profile set, falling back to default profiles: default
+2023-09-16 22:10:28.435  INFO 36771 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8081 (http)
+2023-09-16 22:10:28.455  INFO 36771 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-16 22:10:28.456  INFO 36771 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.46]
+2023-09-16 22:10:28.608  INFO 36771 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-16 22:10:28.609  INFO 36771 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2987 ms
+2023-09-16 22:10:29.344  INFO 36771 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-09-16 22:10:30.038  INFO 36771 --- [main] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService
+2023-09-16 22:10:30.298  INFO 36771 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 16 endpoint(s) beneath base path '/xushu'
+2023-09-16 22:10:30.487  INFO 36771 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8081 (http) with context path ''
+2023-09-16 22:10:30.515  INFO 36771 --- [main] com.example.actuator.Application         : Started Application in 6.476 seconds (JVM running for 8.497)
+2023-09-16 22:10:30.733  INFO 36771 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-09-16 22:10:30.750  INFO 36771 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-16 22:10:30.751  INFO 36771 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-16 22:10:30.790  INFO 36771 --- [RMI TCP Connection(2)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 39 ms
+2023-09-16 22:10:31.096  WARN 36771 --- [registrationTask1] d.c.b.a.c.r.ApplicationRegistrator       : Failed to register application as Application(name=spring-boot-application, managementUrl=http://127.0.1.1:8081/xushu, healthUrl=http://127.0.1.1:8081/xushu/health, serviceUrl=http://127.0.1.1:8081/) at spring-boot-admin ([http://localhost:8082/instances]): I/O error on POST request for "http://localhost:8082/instances": Connection refused (Connection refused); nested exception is java.net.ConnectException: Connection refused (Connection refused). Further attempts are logged on DEBUG level
+2023-09-16 22:10:31.290  INFO 36771 --- [RMI TCP Connection(1)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-09-16 22:10:57.364  INFO 36771 --- [SpringContextShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2023-09-16 22:10:57.392  INFO 36771 --- [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2023-09-16 22:10:57.458  INFO 36771 --- [SpringContextShutdownHook] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService
+2023-09-16 22:10:57.459  INFO 36771 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-09-16 22:10:57.487  INFO 36771 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2023-09-16 22:10:57.489  INFO 36771 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'

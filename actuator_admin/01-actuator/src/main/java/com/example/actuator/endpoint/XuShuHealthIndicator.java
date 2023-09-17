@@ -30,7 +30,7 @@ public class XuShuHealthIndicator extends AbstractHealthIndicator {
     // 根据自己项目的业务需求定制
     private boolean check() {
         // TODO: 验证逻辑
-        int a=1/0;
+        //int a=1/0;
         return true;
     }
 }
